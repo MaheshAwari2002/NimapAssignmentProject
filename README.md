@@ -82,6 +82,6 @@ This project fulfills the following assignment requirements:
 ### Student  Info
 
 Name: Mahesh Rohidas Awari
-Email: maheshawari2002@gmail.com
+Email: awarimahesh2002@gmail.com
 Contact: +91-8390393205
 GitHub: github.com/MaheshAwari2002
