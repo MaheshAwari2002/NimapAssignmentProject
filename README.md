@@ -78,3 +78,10 @@ This project fulfills the following assignment requirements:
 - Follow clean code and layer separation
 - Use pagination and validation
 
+
+### Student  Info
+
+Name: Mahesh Rohidas Awari
+Email: maheshawari2002@gmail.com
+Contact: +91-8390393205
+GitHub: github.com/MaheshAwari2002
