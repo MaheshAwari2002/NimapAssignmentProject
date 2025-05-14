@@ -20,14 +20,14 @@ This project is a Spring Boot-based web application  that performs  CRUD operati
 
 src/
 ├── main/
-   ├── java/com/example/project/
-   │   ├── controller/           → Contains all controller classes (e.g., CategoryController, ProductController)
-   │   ├── service/              → Contains service layer classes
-   │   ├── repository/           → Contains repository interfaces (e.g., JpaRepository)
-   │   ├── entity/               → Contains JPA entity classes (e.g., Category, Product)
-   │   └── exceptionhandling/    → Contains custom exceptions and global handlers
-   └── resources/
-      └── application.properties  → Contains all hibernate conection and information
+|   ├── java/com/example/project/
+|   │   ├── controller/           → Contains all controller classes (e.g., CategoryController, ProductController)
+│   ├── service/              → Contains service layer classes
+|   │   ├── repository/           → Contains repository interfaces (e.g., JpaRepository)
+|   │   ├── entity/               → Contains JPA entity classes (e.g., Category, Product)
+|   │   └── exceptionhandling/    → Contains custom exceptions and global handlers
+|   └── resources/
+|       └── application.properties  → Contains all hibernate conection and information
 
 
 
