@@ -29,8 +29,31 @@ src/
 |   └── resources/
 |       └── application.properties  → Contains all hibernate conection and information
 
+#  Important thing when use post method 
+
+When inserting a product into a specific category, do not pass only the category ID as a separate value
+(e.g., "categoryId": 1). Instead, pass the category as an object containing the ID, like this:
+{
+  "name": "School bag",
+  "description": "Rough and stylish bag",
+  "price": 850,
+  "category": {
+    "id": 1
+  }
+}
 
 
+# avoid (don't like)
+{
+  "name": "School bag",
+  "description": "Rough and stylish bag",
+  "price": 850,
+  "category":  1
+  
+}**
+This is necessary because in the Product entity, the category field is a private object of type Category, 
+and cannot directly access a primitive ID value. 
+Passing it as an object ensures proper mapping and association by the ORM (e.g., Hibernate in Spring Boot).**
 ---
 
 # Features
