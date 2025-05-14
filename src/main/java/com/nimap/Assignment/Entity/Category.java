@@ -4,6 +4,7 @@ package com.nimap.Assignment.Entity;
 
 	import java.util.ArrayList;
 	import java.util.List;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 
 	import jakarta.persistence.CascadeType;
     import jakarta.persistence.Column;
@@ -29,6 +30,7 @@ package com.nimap.Assignment.Entity;
 	    private String description;
 	    
 	    @OneToMany(mappedBy = "category", cascade = CascadeType.ALL, orphanRemoval = true)
+		 @JsonManagedReference
 	    private List<Product> products = new ArrayList<>();
 
 	    // Constructors
