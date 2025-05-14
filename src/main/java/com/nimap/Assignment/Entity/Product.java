@@ -20,7 +20,7 @@ public class Product {
     @JoinColumn(name = "category_id")
     private Category category;
 
-    // Constructors
+    
     public Product() {
     }
 
@@ -30,7 +30,6 @@ public class Product {
         this.price = price;
     }
 
-    // Getters and Setters
     public Long getId() {
         return id;
     }
