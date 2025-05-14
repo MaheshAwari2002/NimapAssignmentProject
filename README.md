@@ -76,6 +76,13 @@ This project fulfills the following assignment requirements:
 - 
 # output images screenshot 
 ![Screenshot (17)](https://github.com/user-attachments/assets/df9d389e-76c7-40d7-afc4-a226caf2f7ef)
+![Screenshot 2025-05-14 195209](https://github.com/user-attachments/assets/315dc860-3593-44cf-b12f-99a35ccbbe8c)
+![Screenshot 2025-05-14 195404](https://github.com/user-attachments/assets/a590e3e0-192c-48b2-92b8-d299ba982492)
+
+![Screenshot 2025-05-14 195252](https://github.com/user-attachments/assets/65ba46b3-a4ae-4448-a0cf-a1c90b03326d)
+![Screenshot 2025-05-14 195615](https://github.com/user-attachments/assets/0fb593d7-3d02-4017-b794-53e5b4e52899)
+
+![Screenshot 2025-05-14 195708](https://github.com/user-attachments/assets/ecf2a2fc-b0d7-428b-94b3-6576cef71582)
 
 
 ### Student  Info
