@@ -2,6 +2,7 @@ package com.nimap.Assignment.Entity;
 
 
 import jakarta.persistence.*;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 
 @Entity
 @Table(name = "products")
@@ -18,6 +19,7 @@ public class Product {
     
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "category_id")
+       @JsonManagedReference 
     private Category category;
 
     
