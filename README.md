@@ -73,6 +73,9 @@ This project fulfills the following assignment requirements:
 - Perform CRUD operations via REST APIs
 - Follow clean code and layer separation
 - Use pagination and validation
+- 
+# output images screenshot 
+![Screenshot (17)](https://github.com/user-attachments/assets/df9d389e-76c7-40d7-afc4-a226caf2f7ef)
 
 
 ### Student  Info
